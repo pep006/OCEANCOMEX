@@ -16,7 +16,7 @@ class ServicesPage extends StatelessWidget {
         child: Column(
           children: [
             MainHeader(),
-            
+
             /// 🔵 HERO SECTION
             Container(
               width: double.infinity,
@@ -77,7 +77,8 @@ class ServicesPage extends StatelessWidget {
                   ),
                   ServiceCard(
                     title: 'Sector Pesca',
-                    description: 'Trámites de asociación y manejo documental pesquero para plantas o comercializadoras',
+                    description:
+                        'Trámites de asociación y manejo documental pesquero para plantas o comercializadoras',
                     icon: Icons.set_meal,
                     isMobile: isMobile,
                     route: '/sectorpesca',
@@ -94,7 +95,7 @@ class ServicesPage extends StatelessWidget {
             ),
 
             const SizedBox(height: 80),
-            FooterSection()
+            FooterSection(),
           ],
         ),
       ),
