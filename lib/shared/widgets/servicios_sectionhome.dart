@@ -5,76 +5,111 @@ class ServiciosSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool isMobile = MediaQuery.of(context).size.width < 800;
+
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 50),
+      padding: EdgeInsets.symmetric(
+        horizontal: isMobile ? 20 : 60, // 🔥 menos padding en móvil
+        vertical: 50,
+      ),
       color: Colors.white,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Título principal
-          const Text(
+          /// 🔵 TÍTULO
+          Text(
             "Servicios",
             style: TextStyle(
-              fontSize: 42,
+              fontSize: isMobile ? 28 : 42, // 🔥 más pequeño en móvil
               fontWeight: FontWeight.bold,
-              color: Color(0xFF083A52),
+              color: const Color(0xFF083A52),
             ),
           ),
           const SizedBox(height: 40),
 
-          // Grid de servicios
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Columna izquierda
-              Expanded(
-                child: Column(
+          /// 🔥 CONTENIDO RESPONSIVE
+          isMobile
+              ? Column(
                   children: [
-                  
-                     
                     _buildServiceCard(
                       title: "SECTOR PROCUREMENT",
                       description:
-                          "•	Búsqueda de proveedores, Solicitud de cotizaciones, Verificación de proveedores, Asistencia en compras ",
+                          "• Búsqueda de proveedores, Solicitud de cotizaciones, Verificación de proveedores, Asistencia en compras",
                       icon: Icons.handshake,
                     ),
                     const SizedBox(height: 20),
                     _buildServiceCard(
                       title: "SECTOR COMERCIO EXTERIOR",
                       description:
-                          "• Gestión completa de procesos aduaneros, Coordinación logística marítima, aérea y terrestre, Emisión, validación y legalización de documentos internacionales (BL, COO, factura comercial, packing list, etc.)",
+                          "• Gestión completa de procesos aduaneros, Coordinación logística marítima, aérea y terrestre, Emisión de documentos internacionales.",
                       icon: Icons.directions_boat_filled,
                       isCompact: true,
                     ),
-                  ],
-                ),
-              ),
-
-              const SizedBox(width: 20),
-
-              // Columna derecha
-              Expanded(
-                child: Column(
-                  children: [
-                     _buildServiceCard(
+                    const SizedBox(height: 20),
+                    _buildServiceCard(
                       title: "SECTOR PESCA",
                       description:
-                          "Trámites de asociación \"Manejo Documental Pesquero para plantas o comercializadoras\"",
+                          "Trámites de asociación y manejo documental pesquero.",
                       icon: Icons.set_meal,
                     ),
                     const SizedBox(height: 20),
                     _buildServiceCard(
                       title: "GESTIÓN ADUANERA",
                       description:
-                          "• Asesoría en gestión aduanera, regímenes aduaneros especiales (ZEDES, Admisión Temporal, Depósitos Aduaneros otros regímenes de importación y exportación).",
-                          
+                          "• Asesoría en gestión aduanera y regímenes especiales.",
                       icon: Icons.handshake,
                     ),
                   ],
+                )
+              : Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    /// Columna izquierda
+                    Expanded(
+                      child: Column(
+                        children: [
+                          _buildServiceCard(
+                            title: "SECTOR PROCUREMENT",
+                            description:
+                                "• Búsqueda de proveedores, Solicitud de cotizaciones, Verificación de proveedores, Asistencia en compras",
+                            icon: Icons.handshake,
+                          ),
+                          const SizedBox(height: 20),
+                          _buildServiceCard(
+                            title: "SECTOR COMERCIO EXTERIOR",
+                            description:
+                                "• Gestión completa de procesos aduaneros, Coordinación logística marítima, aérea y terrestre, Emisión de documentos internacionales.",
+                            icon: Icons.directions_boat_filled,
+                            isCompact: true,
+                          ),
+                        ],
+                      ),
+                    ),
+
+                    const SizedBox(width: 20),
+
+                    /// Columna derecha
+                    Expanded(
+                      child: Column(
+                        children: [
+                          _buildServiceCard(
+                            title: "SECTOR PESCA",
+                            description:
+                                "Trámites de asociación y manejo documental pesquero.",
+                            icon: Icons.set_meal,
+                          ),
+                          const SizedBox(height: 20),
+                          _buildServiceCard(
+                            title: "GESTIÓN ADUANERA",
+                            description:
+                                "• Asesoría en gestión aduanera y regímenes especiales.",
+                            icon: Icons.handshake,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
-              ),
-            ],
-          ),
         ],
       ),
     );
@@ -87,43 +122,42 @@ class ServiciosSection extends StatelessWidget {
     bool isCompact = false,
   }) {
     return Container(
-      padding: const EdgeInsets.all(24),
+      width: double.infinity,
+      padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.3),
-            blurRadius: 20,
+            color: Colors.black.withOpacity(0.1), // 🔥 mejor práctica
+            blurRadius: 15,
             offset: const Offset(0, 5),
-            spreadRadius: 0,
           ),
         ],
         border: Border.all(
-          color: const Color(0xFF083A52).withValues(alpha: 0.1),
-          width: 1,
+          color: const Color(0xFF083A52).withOpacity(0.1),
         ),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Icono y título
+          /// Icono + título
           Row(
             children: [
               Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: const Color(0xFF083A52).withValues(alpha: 0.1),
+                  color: const Color(0xFF083A52).withOpacity(0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(icon, color: const Color(0xFF083A52), size: 24),
               ),
-              const SizedBox(width: 16),
+              const SizedBox(width: 12),
               Expanded(
                 child: Text(
                   title,
                   style: TextStyle(
-                    fontSize: isCompact ? 20 : 22,
+                    fontSize: isCompact ? 18 : 20,
                     fontWeight: FontWeight.bold,
                     color: const Color(0xFF083A52),
                   ),
@@ -131,9 +165,10 @@ class ServiciosSection extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 16),
 
-          // Descripción
+          const SizedBox(height: 12),
+
+          /// Descripción
           Text(
             description,
             style: TextStyle(
@@ -143,24 +178,25 @@ class ServiciosSection extends StatelessWidget {
             ),
           ),
 
-          // Botón "Ver más" (opcional)
-          const SizedBox(height: 16),
+          const SizedBox(height: 12),
+
+          /// Botón
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
-            children: [
+            children: const [
               Text(
                 "Ver más",
                 style: TextStyle(
                   fontSize: 13,
                   fontWeight: FontWeight.w500,
-                  color: const Color(0xFF083A52),
+                  color: Color(0xFF083A52),
                 ),
               ),
-              const SizedBox(width: 4),
+              SizedBox(width: 4),
               Icon(
                 Icons.arrow_forward,
                 size: 16,
-                color: const Color(0xFF083A52),
+                color: Color(0xFF083A52),
               ),
             ],
           ),

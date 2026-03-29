@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:oceancomex_web/features/contact/contact_page.dart';
+import 'package:oceancomex_web/shared/widgets/footer_section.dart';
 import 'package:oceancomex_web/shared/widgets/main_header.dart';
 
 class PropuestavalorPage extends StatelessWidget {
@@ -135,9 +136,11 @@ class PropuestavalorPage extends StatelessWidget {
             ),
 
             const SizedBox(height: 80),
+            FooterSection()
           ],
         ),
       ),
+      
     );
   }
 
@@ -182,7 +185,11 @@ class PropuestavalorPage extends StatelessWidget {
             ),
           ),
         ],
+        
       ),
+      
     );
+    
   }
+  
 }

@@ -11,28 +11,37 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isMobile = screenWidth < 800;
+
     return Scaffold(
-      body: Column(
-        children: [
-          MainHeader(),
-          Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  Center(child: HomeSlider()),
-                  const SizedBox(height: 20),
-                  PresentationSection(),
-                  const SizedBox(height: 20),
-                  ServiciosSection(),
-                  const SizedBox(height: 20),
-                  PropuestaSection(),
-                  const SizedBox(height: 20),
-                  FooterSection()
-                ],
-              ),
-            ),
-          ),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            /// 🔵 Header + Menú
+            const MainHeader(),
+
+            /// 🔵 Slider principal
+            const HomeSlider(),
+
+            /// 🔵 Presentación corporativa
+            SizedBox(height: isMobile ? 20 : 40),
+            const PresentationSection(),
+
+            /// 🔵 Servicios
+            SizedBox(height: isMobile ? 20 : 40),
+            const ServiciosSection(),
+
+            /// 🔵 Propuesta de valor
+            SizedBox(height: isMobile ? 20 : 40),
+            const PropuestaSection(),
+
+            /// 🔵 Footer
+            SizedBox(height: isMobile ? 20 : 40),
+            const FooterSection(),
+          ],
+        ),
       ),
     );
   }

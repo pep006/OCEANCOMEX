@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oceancomex_web/shared/widgets/footer_section.dart';
 
 class PropuestaSection extends StatelessWidget {
   const PropuestaSection({super.key});
