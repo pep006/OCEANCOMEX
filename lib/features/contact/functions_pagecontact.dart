@@ -87,7 +87,7 @@ Widget buildMapSection() {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Av. Principal 123, Guayaquil - Ecuador',
+                  'Guayaquil - Ecuador',
                   style: TextStyle(
                     fontSize: 18,
                     color: Color(0xFF0A2A43),

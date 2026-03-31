@@ -57,7 +57,7 @@ import 'package:oceancomex_web/features/contact/functions_pagecontact.dart';
           buildContactItem(
             icon: Icons.email,
             title: 'Correo Electrónico',
-            content: 'comercial@oceancomex.com\nventas@oceancomex.com',
+            content: 'comercial@oceancomex.com.ec',
           ),
           
           buildContactItem(
