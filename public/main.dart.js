@@ -26001,7 +26001,7 @@ ak9:function ak9(){},
 aka:function aka(){},
 akb:function akb(){},
 aDP(){var s=null,r=A.bS(20),q=A.b([new A.cC(0,B.b2,A.ax(B.d.aC(25.5),B.aW.B()>>>16&255,B.aW.B()>>>8&255,B.aW.B()&255),B.cz,20)],t.E),p=t.p
-return A.b4(s,A.b8(A.b([B.Ws,B.d3,A.b4(s,s,B.l,B.T,s,s,s,4,s,s,s,s,80),B.bg,A.ass("Guayaquil-Manta, Ecuador",B.nY,"Direcci\xf3n"),A.ass("+593 959119599",B.k_,"Tel\xe9fonos"),A.ass("comercial@oceancomex.com\nventas@oceancomex.com",B.jX,"Correo Electr\xf3nico"),A.ass("8:00 AM - 17:30 PM",B.nQ,"Horario de Atenci\xf3n"),B.bg,B.W2,B.zh,A.cv(A.b([A.ast(B.D4,B.jY,new A.aso()),B.b_,A.ast(B.DI,B.jW,new A.asp()),B.b_,A.ast(B.Dy,B.nT,new A.asq()),B.b_,A.ast(B.D2,B.Ga,new A.asr())],p),B.v,B.o,B.m,0)],p),B.F,B.o,B.m),B.l,s,s,new A.bM(B.iP,s,s,r,q,s,B.V),s,s,s,B.cx,s,s,s)},
+return A.b4(s,A.b8(A.b([B.Ws,B.d3,A.b4(s,s,B.l,B.T,s,s,s,4,s,s,s,s,80),B.bg,A.ass("Guayaquil-Manta, Ecuador",B.nY,"Direcci\xf3n"),A.ass("+593 959119599",B.k_,"Tel\xe9fonos"),A.ass("comercial@oceancomex.com.ec",B.jX,"Correo Electr\xf3nico"),A.ass("8:00 AM - 17:30 PM",B.nQ,"Horario de Atenci\xf3n"),B.bg,B.W3,B.zh,A.cv(A.b([A.ast(B.D4,B.jY,new A.aso()),B.b_,A.ast(B.DI,B.jW,new A.asp()),B.b_,A.ast(B.Dy,B.nT,new A.asq()),B.b_,A.ast(B.D2,B.Ga,new A.asr())],p),B.v,B.o,B.m,0)],p),B.F,B.o,B.m),B.l,s,s,new A.bM(B.iP,s,s,r,q,s,B.V),s,s,s,B.cx,s,s,s)},
 ast(a,b,c){var s=null
 return A.a5y(!1,A.bS(30),!0,A.b4(s,A.hd(b,B.j,s,24),B.l,s,s,new A.bM(a,s,s,s,s,s,B.dh),s,45,s,s,s,s,45),s,!0,s,s,s,s,s,s,c,s,s,s)},
 aso:function aso(){},
@@ -80357,7 +80357,7 @@ g.p2=A.r(t.D2,q)
 p=g.p1
 s=s.c
 g.p1=A.r(s,q)
-for(o=0;o<11;++o){n=B.Ii[o]
+for(o=0;o<11;++o){n=B.Ij[o]
 m=f.aiA(n)
 l=m==null?null:m.a
 k=p.h(0,n)
@@ -83247,7 +83247,7 @@ A.UX.prototype={}
 A.te.prototype={
 M(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return A.ado(!0,A.dZ(A.b8(A.b([B.Wk,B.bQ,A.ce(r==null?"page not found":r,s,s,s,s,s,s),B.bQ,new A.Du(new A.a2k(a),B.W3,s)],t.p),B.v,B.c7,B.m),s,s),!0)}}
+return A.ado(!0,A.dZ(A.b8(A.b([B.Wk,B.bQ,A.ce(r==null?"page not found":r,s,s,s,s,s,s),B.bQ,new A.Du(new A.a2k(a),B.W4,s)],t.p),B.v,B.c7,B.m),s,s),!0)}}
 A.a2k.prototype={
 $0(){return A.KD(this.a).rg("/",null)},
 $S:0}
@@ -83297,7 +83297,7 @@ A.tQ.prototype={
 M(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
 if(r==null)r="page not found"
-return A.lf(new A.x7(B.VQ,new A.TS(s,s,1/0,56),s),A.dZ(A.b8(A.b([new A.BK(r,s),A.agV(B.Wj,new A.a92(a),s)],t.p),B.v,B.c7,B.m),s,s))}}
+return A.lf(new A.x7(B.VR,new A.TS(s,s,1/0,56),s),A.dZ(A.b8(A.b([new A.BK(r,s),A.agV(B.Wj,new A.a92(a),s)],t.p),B.v,B.c7,B.m),s,s))}}
 A.a92.prototype={
 $0(){return A.KD(this.a).rg("/",null)},
 $S:0}
@@ -84651,7 +84651,7 @@ return A.M($async$rS,r)},
 M(a){var s=null,r=A.acI(a),q=A.b4(s,A.b8(B.Jk,B.v,B.o,B.m),B.l,B.A,s,s,s,s,s,B.cw,s,s,1/0),p=t.p
 return A.lf(s,A.no(A.b8(A.b([B.uh,q,B.bR,new A.bJ(B.cv,A.b4(s,r.e?A.b8(A.b([A.aDP(),B.bh,this.To()],p),B.v,B.o,B.m):A.cv(A.b([A.cR(A.aDP(),1),B.Qc,A.cR(this.To(),1)],p),B.F,B.o,B.m,0),B.l,s,B.m6,s,s,s,s,s,s,s,s),s),B.bR,A.b4(s,A.uR(B.de,A.b([A.b4(s,B.CB,B.l,A.ax(B.d.aC(25.5),B.A.B()>>>16&255,B.A.B()>>>8&255,B.A.B()&255),s,s,s,s,s,s,s,s,s)],p),B.Y,B.Qy),B.l,B.iS,s,s,s,400,s,s,s,s,1/0),B.bR,B.nM],p),B.v,B.o,B.m)))},
 To(){var s=this,r=null,q=A.bS(20),p=A.b([new A.cC(0,B.b2,A.ax(B.d.aC(25.5),B.aW.B()>>>16&255,B.aW.B()>>>8&255,B.aW.B()&255),B.cz,20)],t.E),o=A.b4(r,r,B.l,B.T,r,r,r,4,r,r,r,r,80),n=A.OR(s.e,A.zs(r,new A.eU(4,A.bS(10),B.dg),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Ingresa tu nombre",r,r,r,r,r,r,r,r,"Nombre completo",!0,!0,r,B.Gr,r,r,r,r,r,r,r,r,r,r,r,r),r,1,new A.ak8()),m=A.OR(s.f,A.zs(r,new A.eU(4,A.bS(10),B.dg),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"tucorreo@ejemplo.com",r,r,r,r,r,r,r,r,"Correo electr\xf3nico",!0,!0,r,B.Gq,r,r,r,r,r,r,r,r,r,r,r,r),B.zI,1,new A.ak9()),l=A.OR(s.r,A.zs(r,new A.eU(4,A.bS(10),B.dg),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Opcional",r,r,r,r,"+593 959119599",r,r,r,r,r,r,r,r,"Tel\xe9fono",!0,!0,r,B.Gv,r,r,r,r,r,r,r,r,r,r,r,r),B.zH,1,r),k=A.OR(s.w,A.zs(r,new A.eU(4,A.bS(10),B.dg),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"\xbfSobre qu\xe9 quieres consultar?",r,r,r,r,r,r,r,r,"Asunto",!0,!0,r,B.Gu,r,r,r,r,r,r,r,r,r,r,r,r),r,1,new A.aka()),j=A.OR(s.x,A.zs(!0,new A.eU(4,A.bS(10),B.dg),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Escribe tu mensaje aqu\xed...",r,r,r,r,r,r,r,r,"Mensaje",!0,!0,r,B.MA,r,r,r,r,r,r,r,r,r,r,r,r),r,5,new A.akb()),i=A.oP(r,r,B.T,r,r,r,5,r,r,B.A,r,r,r,r,new A.ct(A.bS(30),B.u),r,r,r,r,r),h=s.y,g=h?r:s.ga6x()
-q=A.b4(r,A.b8(A.b([B.Wt,B.d3,o,B.bg,n,B.a1,m,B.a1,l,B.a1,k,B.a1,j,B.bg,A.e7(A.tb(!1,h?B.Qd:B.VU,r,r,r,r,r,r,g,r,i),55,1/0)],t.p),B.F,B.o,B.m),B.l,r,r,new A.bM(B.j,r,r,q,p,r,B.V),r,r,r,B.cx,r,r,r)
+q=A.b4(r,A.b8(A.b([B.Wt,B.d3,o,B.bg,n,B.a1,m,B.a1,l,B.a1,k,B.a1,j,B.bg,A.e7(A.tb(!1,h?B.Qd:B.VV,r,r,r,r,r,r,g,r,i),55,1/0)],t.p),B.F,B.o,B.m),B.l,r,r,new A.bM(B.j,r,r,q,p,r,B.V),r,r,r,B.cx,r,r,r)
 return new A.yZ(q,B.iD,s.d)}}
 A.ak6.prototype={
 $0(){return this.a.y=!0},
@@ -84698,7 +84698,7 @@ M(a){var s=null,r=A.bn(a,s,t.w).w.a.a<800,q=A.e7(s,r?20:40,s),p=A.e7(s,r?20:40,s
 return A.lf(s,A.no(A.b8(A.b([B.uh,B.FV,q,B.Nt,p,B.OX,o,B.Nv,A.e7(s,r?20:40,s),B.nM],t.p),B.er,B.o,B.m)))}}
 A.nk.prototype={
 M(a){var s=this,r=null,q=A.b4(r,A.b8(B.J1,B.v,B.o,B.m),B.l,B.A,r,r,r,r,r,B.cw,r,r,1/0),p=A.bS(20),o=A.b([new A.cC(0,B.b2,B.aW.jG(0.1),B.cz,20)],t.E),n=t.p
-return A.lf(r,A.no(A.b8(A.b([new A.iL(r),q,B.bR,new A.bJ(B.cv,A.b4(r,A.b8(A.b([B.W6,B.d3,A.b4(r,r,B.l,B.T,r,r,r,4,r,r,r,r,80),B.bh,s.Lh(B.nS,"Tr\xe1mites de Asociaci\xf3n"),B.bQ,s.ij("Validaci\xf3n de documentos necesarios para asociaci\xf3n de bienes"),s.ij("Seguimiento y control de Tr\xe1mites de asociaciones de barcos, tr\xe1mites con DIRNEA (renovaciones)"),B.bg,s.Lh(B.nU,"Manejo Documental Pesquero para plantas o comercializadoras"),B.bQ,s.ij("Tramitaci\xf3n de permisos de pesca y zarpe"),s.ij("Emisi\xf3n y validaci\xf3n de documentos habilitantes"),s.ij("Provisi\xf3n y cierre de gastos de importaci\xf3n"),s.ij("Coordinaci\xf3n de descarga"),s.ij("AISV"),s.ij("Tr\xe1mites SIAP"),s.ij("Habilitaci\xf3n de la pesca"),s.ij("An\xe1lisis de reg\xedmenes aduaneros para ingreso de pesca"),s.ij("Cierre de tr\xe1mite con entidades de control"),s.ij("Emisi\xf3n de garant\xedas aduaneras"),B.bh,A.dZ(A.tb(!1,B.i3,r,r,r,r,r,r,new A.afs(a),r,A.oP(r,r,B.T,r,r,r,r,r,r,B.A,r,r,B.ey,r,new A.ct(A.bS(30),B.u),r,r,r,r,r)),r,r)],n),B.F,B.o,B.m),B.l,r,B.fo,new A.bM(B.j,r,r,p,o,r,B.V),r,r,r,B.cx,r,r,1/0),r),B.d4,new A.iD(r)],n),B.v,B.o,B.m)))},
+return A.lf(r,A.no(A.b8(A.b([new A.iL(r),q,B.bR,new A.bJ(B.cv,A.b4(r,A.b8(A.b([B.W7,B.d3,A.b4(r,r,B.l,B.T,r,r,r,4,r,r,r,r,80),B.bh,s.Lh(B.nS,"Tr\xe1mites de Asociaci\xf3n"),B.bQ,s.ij("Validaci\xf3n de documentos necesarios para asociaci\xf3n de bienes"),s.ij("Seguimiento y control de Tr\xe1mites de asociaciones de barcos, tr\xe1mites con DIRNEA (renovaciones)"),B.bg,s.Lh(B.nU,"Manejo Documental Pesquero para plantas o comercializadoras"),B.bQ,s.ij("Tramitaci\xf3n de permisos de pesca y zarpe"),s.ij("Emisi\xf3n y validaci\xf3n de documentos habilitantes"),s.ij("Provisi\xf3n y cierre de gastos de importaci\xf3n"),s.ij("Coordinaci\xf3n de descarga"),s.ij("AISV"),s.ij("Tr\xe1mites SIAP"),s.ij("Habilitaci\xf3n de la pesca"),s.ij("An\xe1lisis de reg\xedmenes aduaneros para ingreso de pesca"),s.ij("Cierre de tr\xe1mite con entidades de control"),s.ij("Emisi\xf3n de garant\xedas aduaneras"),B.bh,A.dZ(A.tb(!1,B.i3,r,r,r,r,r,r,new A.afs(a),r,A.oP(r,r,B.T,r,r,r,r,r,r,B.A,r,r,B.ey,r,new A.ct(A.bS(30),B.u),r,r,r,r,r)),r,r)],n),B.F,B.o,B.m),B.l,r,B.fo,new A.bM(B.j,r,r,p,o,r,B.V),r,r,r,B.cx,r,r,1/0),r),B.d4,new A.iD(r)],n),B.v,B.o,B.m)))},
 ij(a){var s=null
 return new A.bJ(B.ng,A.cv(A.b([B.zN,A.cR(A.ce(a,s,s,s,B.zL,s,s),1)],t.p),B.F,B.o,B.m,0),s)},
 Lh(a,b){var s=null,r=A.bS(10)
@@ -84753,8 +84753,8 @@ case 6:case 1:return A.L(q,r)
 case 2:return A.K(o.at(-1),r)}})
 return A.M($async$vJ,r)}}
 A.ni.prototype={
-M(a){var s=this,r=null,q=A.b4(r,A.b8(B.Ih,B.v,B.o,B.m),B.l,B.A,r,r,r,r,r,B.cw,r,r,1/0),p=A.bS(20),o=A.b([new A.cC(0,B.b2,B.aW.jG(0.1),B.cz,20)],t.E),n=t.p
-return A.lf(r,A.no(A.b8(A.b([new A.iL(r),q,B.bR,new A.bJ(B.cv,A.b4(r,A.b8(A.b([B.W4,B.d3,A.b4(r,r,B.l,B.T,r,r,r,4,r,r,r,r,80),B.bh,s.CA(B.FX,"Asesor\xeda en Gesti\xf3n Aduanera"),B.bQ,s.ny("Asesor\xeda especializada en procesos de importaci\xf3n y exportaci\xf3n"),s.ny("An\xe1lisis de cumplimiento normativo en operaciones aduaneras"),B.bg,s.CA(B.Gf,"Reg\xedmenes Aduaneros Especiales"),B.bQ,s.ny("ZEDES (Zonas Especiales de Desarrollo Econ\xf3mico)"),s.ny("Admisi\xf3n Temporal"),s.ny("Dep\xf3sitos Aduaneros"),s.ny("Otros reg\xedmenes de importaci\xf3n y exportaci\xf3n"),B.bg,s.CA(B.jZ,"Despacho Aduanero"),B.bQ,s.ny("Agenciamiento aduanero"),B.bh,A.dZ(A.tb(!1,B.Wh,r,r,r,r,r,r,new A.afm(),r,A.oP(r,r,B.T,r,r,r,r,r,r,B.A,r,r,B.ey,r,new A.ct(A.bS(30),B.u),r,r,r,r,r)),r,r)],n),B.F,B.o,B.m),B.l,r,B.fo,new A.bM(B.j,r,r,p,o,r,B.V),r,r,r,B.cx,r,r,1/0),r),B.d4,new A.iD(r)],n),B.v,B.o,B.m)))},
+M(a){var s=this,r=null,q=A.b4(r,A.b8(B.Ii,B.v,B.o,B.m),B.l,B.A,r,r,r,r,r,B.cw,r,r,1/0),p=A.bS(20),o=A.b([new A.cC(0,B.b2,B.aW.jG(0.1),B.cz,20)],t.E),n=t.p
+return A.lf(r,A.no(A.b8(A.b([new A.iL(r),q,B.bR,new A.bJ(B.cv,A.b4(r,A.b8(A.b([B.W5,B.d3,A.b4(r,r,B.l,B.T,r,r,r,4,r,r,r,r,80),B.bh,s.CA(B.FX,"Asesor\xeda en Gesti\xf3n Aduanera"),B.bQ,s.ny("Asesor\xeda especializada en procesos de importaci\xf3n y exportaci\xf3n"),s.ny("An\xe1lisis de cumplimiento normativo en operaciones aduaneras"),B.bg,s.CA(B.Gf,"Reg\xedmenes Aduaneros Especiales"),B.bQ,s.ny("ZEDES (Zonas Especiales de Desarrollo Econ\xf3mico)"),s.ny("Admisi\xf3n Temporal"),s.ny("Dep\xf3sitos Aduaneros"),s.ny("Otros reg\xedmenes de importaci\xf3n y exportaci\xf3n"),B.bg,s.CA(B.jZ,"Despacho Aduanero"),B.bQ,s.ny("Agenciamiento aduanero"),B.bh,A.dZ(A.tb(!1,B.Wh,r,r,r,r,r,r,new A.afm(),r,A.oP(r,r,B.T,r,r,r,r,r,r,B.A,r,r,B.ey,r,new A.ct(A.bS(30),B.u),r,r,r,r,r)),r,r)],n),B.F,B.o,B.m),B.l,r,B.fo,new A.bM(B.j,r,r,p,o,r,B.V),r,r,r,B.cx,r,r,1/0),r),B.d4,new A.iD(r)],n),B.v,B.o,B.m)))},
 ny(a){var s=null
 return new A.bJ(B.ng,A.cv(A.b([B.zN,A.cR(A.ce(a,s,s,s,B.zL,s,s),1)],t.p),B.F,B.o,B.m,0),s)},
 CA(a,b){var s=null,r=A.bS(10)
@@ -84788,7 +84788,7 @@ $1(a){return B.dq},
 $S:56}
 A.uF.prototype={
 M(a){var s=null,r=A.acI(a).e,q=t.p
-return A.lf(s,A.no(A.b8(A.b([new A.iL(s),A.b4(s,A.b8(B.Ig,B.v,B.o,B.m),B.l,B.A,s,s,s,s,s,B.cw,s,s,1/0),B.bR,new A.bJ(B.cv,A.avC(B.ly,A.b([new A.qr("Sector Procurement","\u2022 Proceso estrat\xe9gico enfocado en la planificaci\xf3n, adquisici\xf3n y gesti\xf3n eficiente de bienes y servicios.",B.eC,r,"/sectorprocurement",s),new A.qr("Sector Comercio Exterior","\u2022 Conjunto de operaciones que permiten el intercambio de bienes y servicios entre pa\xedses.\n",B.nV,r,"/sectorcomext",s),new A.qr("Sector Pesca","Actividad econ\xf3mica orientada a la captura, procesamiento y comercializaci\xf3n de recursos marinos.",B.k0,r,"/sectorpesca",s),new A.qr("Gesti\xf3n Aduanera","Proceso encargado de regular y controlar el ingreso y salida de mercanc\xedas conforme a la normativa vigente.",B.nU,r,"/aduanera",s)],q),24,24),s),B.d4,new A.iD(s)],q),B.v,B.o,B.m)))}}
+return A.lf(s,A.no(A.b8(A.b([new A.iL(s),A.b4(s,A.b8(B.Ih,B.v,B.o,B.m),B.l,B.A,s,s,s,s,s,B.cw,s,s,1/0),B.bR,new A.bJ(B.cv,A.avC(B.ly,A.b([new A.qr("Sector Procurement","\u2022 Proceso estrat\xe9gico enfocado en la planificaci\xf3n, adquisici\xf3n y gesti\xf3n eficiente de bienes y servicios.",B.eC,r,"/sectorprocurement",s),new A.qr("Sector Comercio Exterior","\u2022 Conjunto de operaciones que permiten el intercambio de bienes y servicios entre pa\xedses.\n",B.nV,r,"/sectorcomext",s),new A.qr("Sector Pesca","Actividad econ\xf3mica orientada a la captura, procesamiento y comercializaci\xf3n de recursos marinos.",B.k0,r,"/sectorpesca",s),new A.qr("Gesti\xf3n Aduanera","Proceso encargado de regular y controlar el ingreso y salida de mercanc\xedas conforme a la normativa vigente.",B.nU,r,"/aduanera",s)],q),24,24),s),B.d4,new A.iD(s)],q),B.v,B.o,B.m)))}}
 A.qr.prototype={
 M(a){var s=this,r=null,q=s.f?1/0:280,p=A.bS(16),o=A.b([new A.cC(0,B.b2,B.aW.jG(0.5),B.uz,10)],t.E)
 return A.b4(r,A.b8(A.b([A.hd(s.e,B.A,r,50),B.a1,A.ce(s.c,r,r,r,B.UV,B.a9,r),B.l6,A.ce(s.d,r,r,r,B.TJ,B.a9,r),B.a1,A.agV(B.VP,new A.afl(s,a),r)],t.p),B.v,B.o,B.m),B.l,r,r,new A.bM(B.j,r,r,p,o,r,B.V),r,r,r,B.Fo,r,r,q)}}
@@ -84800,7 +84800,7 @@ M(a){var s,r,q=this,p=null,o=A.b4(p,A.b8(B.Jb,B.v,B.o,B.m),B.l,B.A,p,p,p,p,p,B.c
 k=A.cv(A.b([A.b4(p,A.hd(B.Gh,B.A,p,24),B.l,p,p,new A.bM(B.T,p,p,k,p,p,B.V),p,p,p,B.dt,p,p,p),B.b_,A.cR(A.ce("Nuestros Servicios",p,p,p,B.i1,p,p),1)],j),B.v,B.o,B.m,0)
 s=A.b([q.wm("B\xfasqueda de proveedores",B.Gd),q.wm("Solicitud de cotizaciones",B.Gc),q.wm("Verificaci\xf3n de proveedores",B.o_),q.wm("Asistencia en compras",B.Gg)],j)
 r=A.am([null,0],t.LO,t.S)
-return A.lf(p,A.no(A.b8(A.b([new A.iL(p),o,B.bR,new A.bJ(B.cv,A.b4(p,A.b8(A.b([B.VN,B.d3,l,B.bh,k,B.a1,new A.KE(new A.ag3(2,20,20,3),new A.ag0(!0,!0,!0,s,r),p,B.aG,!1,p,p,B.LK,!0,p,4,B.ap,p,p,B.Y,B.av,p),B.Qf,B.VR,B.a1,q.wk("Ahorro de tiempo y recursos","Optimizamos tus procesos de b\xfasqueda y selecci\xf3n de proveedores"),q.wk("Proveedores verificados","Validamos la solvencia y confiabilidad de cada proveedor"),q.wk("Mejores condiciones","Negociamos precios competitivos y condiciones favorables"),q.wk("Acompa\xf1amiento integral","Te asistimos durante todo el proceso de compra"),B.bh,A.dZ(A.tb(!1,B.i3,p,p,p,p,p,p,new A.afu(a),p,A.oP(p,p,B.T,p,p,p,p,p,p,B.A,p,p,B.ey,p,new A.ct(A.bS(30),B.u),p,p,p,p,p)),p,p)],j),B.F,B.o,B.m),B.l,p,B.fo,new A.bM(B.j,p,p,n,m,p,B.V),p,p,p,B.cx,p,p,1/0),p),B.d4,new A.iD(p)],j),B.v,B.o,B.m)))},
+return A.lf(p,A.no(A.b8(A.b([new A.iL(p),o,B.bR,new A.bJ(B.cv,A.b4(p,A.b8(A.b([B.VN,B.d3,l,B.bh,k,B.a1,new A.KE(new A.ag3(2,20,20,3),new A.ag0(!0,!0,!0,s,r),p,B.aG,!1,p,p,B.LK,!0,p,4,B.ap,p,p,B.Y,B.av,p),B.Qf,B.VS,B.a1,q.wk("Ahorro de tiempo y recursos","Optimizamos tus procesos de b\xfasqueda y selecci\xf3n de proveedores"),q.wk("Proveedores verificados","Validamos la solvencia y confiabilidad de cada proveedor"),q.wk("Mejores condiciones","Negociamos precios competitivos y condiciones favorables"),q.wk("Acompa\xf1amiento integral","Te asistimos durante todo el proceso de compra"),B.bh,A.dZ(A.tb(!1,B.i3,p,p,p,p,p,p,new A.afu(a),p,A.oP(p,p,B.T,p,p,p,p,p,p,B.A,p,p,B.ey,p,new A.ct(A.bS(30),B.u),p,p,p,p,p)),p,p)],j),B.F,B.o,B.m),B.l,p,B.fo,new A.bM(B.j,p,p,n,m,p,B.V),p,p,p,B.cx,p,p,1/0),p),B.d4,new A.iD(p)],j),B.v,B.o,B.m)))},
 wm(a,b){var s=null,r=A.ax(8,B.A.B()>>>16&255,B.A.B()>>>8&255,B.A.B()&255),q=A.bS(12),p=A.axS(A.ax(B.d.aC(76.5),B.T.B()>>>16&255,B.T.B()>>>8&255,B.T.B()&255),1),o=A.ax(51,B.T.B()>>>16&255,B.T.B()>>>8&255,B.T.B()&255),n=A.bS(8)
 return A.b4(s,A.cv(A.b([A.b4(s,A.hd(b,B.A,s,20),B.l,s,s,new A.bM(o,s,s,n,s,s,B.V),s,s,s,B.jg,s,s,s),B.l5,A.cR(A.ce(a,s,s,s,B.RX,s,s),1)],t.p),B.v,B.o,B.m,0),B.l,s,s,new A.bM(r,s,p,q,s,s,B.V),s,s,s,B.Fj,s,s,s)},
 wk(a,b){var s=null
@@ -84866,7 +84866,7 @@ return A.b4(r,A.b8(A.b([m,B.EA,p?A.b8(A.b([A.cv(A.b([s.lU(B.jY),B.b_,s.lU(B.nX),
 LP(){var s=null,r=t.p
 return A.b8(A.b([A.cv(A.b([A.b4(s,B.Cy,B.l,s,s,new A.bM(B.T,s,s,A.bS(8),s,s,B.V),s,40,s,s,s,s,40),B.zg,B.Wd],r),B.v,B.o,B.m,0),B.a1,B.Wn],r),B.F,B.o,B.m)},
 LO(a){var s=this
-return A.b8(A.b([B.W8,B.a1,s.lS(a,"Inicio","/"),s.lS(a,"Servicios","/services"),s.lS(a,"Propuesta de Valor","/propuestavalor"),s.lS(a,"Contacto","/contact")],t.p),B.F,B.o,B.m)},
+return A.b8(A.b([B.W9,B.a1,s.lS(a,"Inicio","/"),s.lS(a,"Servicios","/services"),s.lS(a,"Propuesta de Valor","/propuestavalor"),s.lS(a,"Contacto","/contact")],t.p),B.F,B.o,B.m)},
 LR(a){var s=this
 return A.b8(A.b([B.Wp,B.a1,s.lS(a,"Sector Pesca","/sectorpesca"),s.lS(a,"Sector Procurement","/sectorprocurement"),s.lS(a,"Sector Comercio Exterior","/sectorcomext"),s.lS(a,"Sector Gesti\xf3n Aduanera","/aduanera")],t.p),B.F,B.o,B.m)},
 LK(){var s=this
@@ -84904,16 +84904,16 @@ A.zU.prototype={
 M(a){return A.cv(A.b([A.L3("assets/images/logo_oceancomex.png",null,null,60)],t.p),B.v,B.o,B.m,0)}}
 A.iL.prototype={
 M(a){var s=null
-return A.b8(A.b([A.b4(s,A.acI(a).e?A.b8(A.b([new A.zU(s),A.e7(s,20,s),new A.xR(s)],t.p),B.F,B.o,B.m):A.cv(B.Id,B.v,B.kn,B.m,0),B.l,B.CT,s,s,s,s,s,B.Fs,s,s,1/0),new A.Jl(s)],t.p),B.v,B.o,B.m)}}
+return A.b8(A.b([A.b4(s,A.acI(a).e?A.b8(A.b([new A.zU(s),A.e7(s,20,s),new A.xR(s)],t.p),B.F,B.o,B.m):A.cv(B.Ie,B.v,B.kn,B.m,0),B.l,B.CT,s,s,s,s,s,B.Fs,s,s,1/0),new A.Jl(s)],t.p),B.v,B.o,B.m)}}
 A.Mt.prototype={
 M(a){var s=null,r=t.p
-return A.b4(s,A.dZ(A.cv(A.b([A.cR(A.b4(s,A.L3("assets/images/presentation_image.png",new A.ab7(),B.m9,s),B.l,s,s,s,s,400,B.Fc,s,s,s,s),4),A.cR(A.b8(A.b([B.VX,B.a1,B.W5],r),B.F,B.c7,B.m),6)],r),B.v,B.o,B.m,0),s,s),B.l,s,s,s,s,s,s,B.ex,s,s,s)}}
+return A.b4(s,A.dZ(A.cv(A.b([A.cR(A.b4(s,A.L3("assets/images/presentation_image.png",new A.ab7(),B.m9,s),B.l,s,s,s,s,400,B.Fc,s,s,s,s),4),A.cR(A.b8(A.b([B.VY,B.a1,B.W6],r),B.F,B.c7,B.m),6)],r),B.v,B.o,B.m,0),s,s),B.l,s,s,s,s,s,s,B.ex,s,s,s)}}
 A.ab7.prototype={
 $3(a,b,c){return B.Cz},
 $S:566}
 A.MA.prototype={
 M(a){var s=this,r=null,q=t.p
-return A.b8(A.b([A.b4(r,A.dZ(A.cv(A.b([A.cR(A.b8(A.b([B.VY,B.a1,B.bg,s.jf("Integraci\xf3n total",u._),s.jf("Experiencia sectorial",u.k),s.jf("Transparencia y eficiencia","trazabilidad total de cada operaci\xf3n."),s.jf("Red estrat\xe9gica",u.I),s.jf("Soluciones personalizadas",u.h),s.tL(u.f,u.g,!0)],q),B.F,B.c7,B.m),6),A.cR(A.b4(r,new A.J6(A.bS(12),A.L3("assets/images/grafico_propuesta_valor.png",new A.abd(),B.m9,r),r),B.l,r,r,r,r,400,B.Fq,r,r,r,r),4)],q),B.v,B.o,B.m,0),r,r),B.l,r,r,r,r,r,r,B.ex,r,r,r)],q),B.v,B.o,B.m)},
+return A.b8(A.b([A.b4(r,A.dZ(A.cv(A.b([A.cR(A.b8(A.b([B.VZ,B.a1,B.bg,s.jf("Integraci\xf3n total",u._),s.jf("Experiencia sectorial",u.k),s.jf("Transparencia y eficiencia","trazabilidad total de cada operaci\xf3n."),s.jf("Red estrat\xe9gica",u.I),s.jf("Soluciones personalizadas",u.h),s.tL(u.f,u.g,!0)],q),B.F,B.c7,B.m),6),A.cR(A.b4(r,new A.J6(A.bS(12),A.L3("assets/images/grafico_propuesta_valor.png",new A.abd(),B.m9,r),r),B.l,r,r,r,r,400,B.Fq,r,r,r,r),4)],q),B.v,B.o,B.m,0),r,r),B.l,r,r,r,r,r,r,B.ex,r,r,r)],q),B.v,B.o,B.m)},
 tL(a,b,c){var s=null,r=c?0:20
 return new A.bJ(new A.aj(0,0,0,r),A.cv(A.b([A.b4(s,s,B.l,s,s,B.iF,s,8,B.jf,s,s,s,8),A.cR(A.Bn(s,s,s,B.bD,s,s,!0,s,A.bR(A.b([A.bR(s,s,B.ll,a+": "),A.bR(s,s,s,b)],t.VO),s,B.lk,s),B.aL,s,s,B.aA,B.ay),1)],t.p),B.F,B.o,B.m,0),s)},
 jf(a,b){return this.tL(a,b,!1)}}
@@ -84927,7 +84927,7 @@ o=A.b4(p,A.b4(p,A.b8(B.Jp,B.v,B.o,B.m),B.l,p,p,new A.bM(p,p,p,p,p,new A.tH(B.lX,
 s=A.bS(20)
 r=A.b([new A.cC(0,B.b2,B.aW.jG(0.1),B.cz,20)],t.E)
 q=t.p
-return A.lf(p,A.no(A.b8(A.b([new A.iL(p),o,B.bR,new A.bJ(B.cv,A.b4(p,A.b8(A.b([this.Et(B.nT,"Sobre Nosotros"),B.bQ,B.VZ,B.bh,this.Et(B.G3,"Misi\xf3n"),B.bQ,B.VO,B.bh,this.Et(B.Gk,"Visi\xf3n"),B.bQ,B.Wq,B.bh,A.dZ(A.tb(!1,B.Wo,p,p,p,p,p,p,new A.abj(a),p,A.oP(p,p,B.T,p,p,p,p,p,p,B.A,p,p,B.ey,p,new A.ct(A.bS(30),B.u),p,p,p,p,p)),p,p)],q),B.F,B.o,B.m),B.l,p,B.fo,new A.bM(B.j,p,p,s,r,p,B.V),p,p,p,B.cx,p,p,1/0),p),B.d4,new A.iD(p)],q),B.v,B.o,B.m)))},
+return A.lf(p,A.no(A.b8(A.b([new A.iL(p),o,B.bR,new A.bJ(B.cv,A.b4(p,A.b8(A.b([this.Et(B.nT,"Sobre Nosotros"),B.bQ,B.W_,B.bh,this.Et(B.G3,"Misi\xf3n"),B.bQ,B.VO,B.bh,this.Et(B.Gk,"Visi\xf3n"),B.bQ,B.Wq,B.bh,A.dZ(A.tb(!1,B.Wo,p,p,p,p,p,p,new A.abj(a),p,A.oP(p,p,B.T,p,p,p,p,p,p,B.A,p,p,B.ey,p,new A.ct(A.bS(30),B.u),p,p,p,p,p)),p,p)],q),B.F,B.o,B.m),B.l,p,B.fo,new A.bM(B.j,p,p,s,r,p,B.V),p,p,p,B.cx,p,p,1/0),p),B.d4,new A.iD(p)],q),B.v,B.o,B.m)))},
 Et(a,b){var s=null,r=A.bS(10)
 return A.dZ(A.cv(A.b([A.b4(s,A.hd(a,B.A,s,24),B.l,s,s,new A.bM(B.T,s,s,r,s,s,B.V),s,s,s,B.dt,s,s,s),B.b_,A.ce(b,s,s,s,B.lj,s,s)],t.p),B.v,B.o,B.dF,0),s,s)}}
 A.abj.prototype={
@@ -89178,8 +89178,8 @@ B.ab=new A.hQ(6)
 B.Su=new A.j(!0,B.bc,null,null,null,null,18,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Wf=new A.ba("OC",null,B.Su,null,null,null,null,null,null)
 B.Cy=new A.h4(B.X,null,null,B.Wf,null)
-B.VT=new A.ba("Imagen no encontrada",null,null,null,null,null,null,null,null)
-B.Cz=new A.h4(B.X,null,null,B.VT,null)
+B.VU=new A.ba("Imagen no encontrada",null,null,null,null,null,null,null,null)
+B.Cz=new A.h4(B.X,null,null,B.VU,null)
 B.c7=new A.mK(2,"center")
 B.m=new A.Ly(1,"max")
 B.v=new A.oF(2,"center")
@@ -89203,8 +89203,8 @@ B.aW=new A.pw(B.L_,1,0.6196078431372549,0.6196078431372549,0.6196078431372549,B.
 B.Gt=new A.hR(B.FZ,50,B.aW,null,null)
 B.d3=new A.cV(null,10,null,null)
 B.Vf=new A.j(!0,B.aW,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.W1=new A.ba("Imagen no encontrada",null,B.Vf,null,null,null,null,null,null)
-B.IF=s([B.Gt,B.d3,B.W1],t.p)
+B.W2=new A.ba("Imagen no encontrada",null,B.Vf,null,null,null,null,null,null)
+B.IF=s([B.Gt,B.d3,B.W2],t.p)
 B.DY=new A.rV(B.aG,B.c7,B.m,B.v,null,B.da,null,0,B.IF,null)
 B.CA=new A.h4(B.X,null,null,B.DY,null)
 B.G6=new A.bm(58312,"MaterialIcons",null,!1)
@@ -89212,9 +89212,9 @@ B.A=new A.A(1,0.0392156862745098,0.16470588235294117,0.2627450980392157,B.e)
 B.Go=new A.hR(B.G6,100,B.A,null,null)
 B.a1=new A.cV(null,20,null,null)
 B.U4=new A.j(!0,B.A,null,null,null,null,18,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.W9=new A.ba("Av. Principal 123, Guayaquil - Ecuador",null,B.U4,null,null,null,null,null,null)
-B.Ij=s([B.Go,B.a1,B.W9],t.p)
-B.DX=new A.rV(B.aG,B.c7,B.m,B.v,null,B.da,null,0,B.Ij,null)
+B.VQ=new A.ba("Guayaquil - Ecuador",null,B.U4,null,null,null,null,null,null)
+B.Ic=s([B.Go,B.a1,B.VQ],t.p)
+B.DX=new A.rV(B.aG,B.c7,B.m,B.v,null,B.da,null,0,B.Ic,null)
 B.CB=new A.h4(B.X,null,null,B.DX,null)
 B.CC=new A.xu(null,null,null,null,null,null,null,null,null)
 B.CD=new A.xv(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -89814,7 +89814,7 @@ B.hY=new A.lq(3,"justify")
 B.aL=new A.lq(4,"start")
 B.lc=new A.lq(5,"end")
 B.I6=s([B.dX,B.lb,B.a9,B.hY,B.aL,B.lc],A.ae("y<lq>"))
-B.Ie=s([2,1.13276676],t.n)
+B.If=s([2,1.13276676],t.n)
 B.Hp=s([2.18349805,1.20311921],t.n)
 B.J4=s([2.33888662,1.28698796],t.n)
 B.J7=s([2.48660575,1.36351941],t.n)
@@ -89824,20 +89824,20 @@ B.IB=s([3.36298265,1.98288283],t.n)
 B.Ik=s([4.08649929,2.23811846],t.n)
 B.Iu=s([4.85481134,2.47563463],t.n)
 B.Ia=s([5.62945551,2.72948597],t.n)
-B.If=s([6.43023796,2.98020421],t.n)
-B.oe=s([B.Ie,B.Hp,B.J4,B.J7,B.I9,B.Ib,B.IB,B.Ik,B.Iu,B.Ia,B.If],t.zg)
+B.Ig=s([6.43023796,2.98020421],t.n)
+B.oe=s([B.If,B.Hp,B.J4,B.J7,B.I9,B.Ib,B.IB,B.Ik,B.Iu,B.Ia,B.Ig],t.zg)
 B.I8=s([B.iB,B.iC],A.ae("y<x9>"))
 B.KR=new A.zU(null)
 B.DZ=new A.xR(null)
-B.Id=s([B.KR,B.DZ],t.p)
+B.Ie=s([B.KR,B.DZ],t.p)
 B.d5=new A.j(!0,B.j,null,null,null,null,42,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Wb=new A.ba("Nuestros Servicios",null,B.d5,B.a9,null,null,null,null,null)
 B.e_=new A.j(!0,B.K,null,null,null,null,18,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.zO=new A.ba("Soluciones log\xedsticas integrales adaptadas a tu negocio.",null,B.e_,B.a9,null,null,null,null,null)
-B.Ig=s([B.Wb,B.a1,B.zO],t.p)
+B.Ih=s([B.Wb,B.a1,B.zO],t.p)
 B.Wg=new A.ba("Gesti\xf3n Aduanera",null,B.d5,B.a9,null,null,null,null,null)
 B.Wu=new A.ba("Soluciones especializadas en procesos y normativa aduanera",null,B.e_,B.a9,null,null,null,null,null)
-B.Ih=s([B.Wg,B.a1,B.Wu],t.p)
+B.Ii=s([B.Wg,B.a1,B.Wu],t.p)
 B.az=new A.ep(0,"icon")
 B.aM=new A.ep(1,"input")
 B.a2=new A.ep(2,"label")
@@ -89849,7 +89849,7 @@ B.aF=new A.ep(7,"suffixIcon")
 B.bE=new A.ep(8,"helperError")
 B.bT=new A.ep(9,"counter")
 B.cl=new A.ep(10,"container")
-B.Ii=s([B.az,B.aM,B.a2,B.aS,B.aT,B.aU,B.a7,B.aF,B.bE,B.bT,B.cl],A.ae("y<ep>"))
+B.Ij=s([B.az,B.aM,B.a2,B.aS,B.aT,B.aU,B.a7,B.aF,B.bE,B.bT,B.cl],A.ae("y<ep>"))
 B.Jq=new A.mJ("en","US")
 B.of=s([B.Jq],t.ss)
 B.Yr=new A.lD(0,0)
@@ -89944,9 +89944,9 @@ B.IV=s([],A.ae("y<fs>"))
 B.IO=s([],t.t)
 B.oj=s([],t.ee)
 B.IX=s([],t.XS)
-B.W0=new A.ba("Sector Pesca",null,B.d5,B.a9,null,null,null,null,null)
-B.VS=new A.ba("Soluciones log\xedsticas integrales especializadas para la industria pesquera",null,B.e_,B.a9,null,null,null,null,null)
-B.J1=s([B.W0,B.a1,B.VS],t.p)
+B.W1=new A.ba("Sector Pesca",null,B.d5,B.a9,null,null,null,null,null)
+B.VT=new A.ba("Soluciones log\xedsticas integrales especializadas para la industria pesquera",null,B.e_,B.a9,null,null,null,null,null)
+B.J1=s([B.W1,B.a1,B.VT],t.p)
 B.jV=new A.hQ(0)
 B.FP=new A.hQ(1)
 B.FQ=new A.hQ(2)
@@ -89990,8 +89990,8 @@ B.Wi=new A.ba("Cont\xe1ctanos",null,B.RD,B.a9,null,null,null,null,null)
 B.S_=new A.j(!0,B.K,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Wc=new A.ba("Estamos aqu\xed para ayudarte con tus necesidades log\xedsticas",null,B.S_,B.a9,null,null,null,null,null)
 B.Jk=s([B.Wi,B.a1,B.Wc],t.p)
-B.W7=new A.ba("Propuesta de Valor",null,B.d5,B.a9,null,null,null,null,null)
-B.Jl=s([B.W7,B.a1,B.zO],t.p)
+B.W8=new A.ba("Propuesta de Valor",null,B.d5,B.a9,null,null,null,null,null)
+B.Jl=s([B.W8,B.a1,B.zO],t.p)
 B.Jm=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.Wr=new A.ba("Importaciones Y Exportaciones",null,B.d5,B.a9,null,null,null,null,null)
 B.Wl=new A.ba("Soluciones integrales en comercio exterior adaptadas a tu negocio",null,B.e_,B.a9,null,null,null,null,null)
@@ -90000,9 +90000,9 @@ B.B7=new A.fC(0,600,"MOBILE")
 B.B8=new A.fC(601,1024,"TABLET")
 B.B9=new A.fC(1025,1/0,"DESKTOP")
 B.Jo=s([B.B7,B.B8,B.B9],t.At)
-B.VW=new A.ba("Sobre Nosotros",null,B.d5,B.a9,null,null,null,null,null)
-B.VV=new A.ba("Operador log\xedstico integral especializado en comercio internacional y sector pesquero",null,B.e_,B.a9,null,null,null,null,null)
-B.Jp=s([B.VW,B.a1,B.VV],t.p)
+B.VX=new A.ba("Sobre Nosotros",null,B.d5,B.a9,null,null,null,null,null)
+B.VW=new A.ba("Operador log\xedstico integral especializado en comercio internacional y sector pesquero",null,B.e_,B.a9,null,null,null,null,null)
+B.Jp=s([B.VX,B.a1,B.VW],t.p)
 B.p=new A.zT(0,"ignored")
 B.aO=new A.e(4294967304)
 B.eI=new A.e(4294967323)
@@ -90563,7 +90563,7 @@ B.Iz=s([8589934850,8589934850,8589934851,null],t.Z)
 B.uq=new A.cK(["*",B.HD,"+",B.HE,"-",B.HF,".",B.HG,"/",B.HH,"0",B.HI,"1",B.HJ,"2",B.HL,"3",B.HN,"4",B.HO,"5",B.HP,"6",B.HQ,"7",B.HR,"8",B.HS,"9",B.HU,"Alt",B.Iw,"AltGraph",B.Hs,"ArrowDown",B.Ht,"ArrowLeft",B.Hu,"ArrowRight",B.Hv,"ArrowUp",B.Hw,"Clear",B.HB,"Control",B.Ix,"Delete",B.Hr,"End",B.Hx,"Enter",B.Hq,"Home",B.Hy,"Insert",B.HC,"Meta",B.Iy,"PageDown",B.Hz,"PageUp",B.HA,"Shift",B.Iz],A.ae("cK<l,T<q?>>"))
 B.HT=s([B.ov,null,null,B.ub],t.L)
 B.J2=s([B.tY,null,null,B.uc],t.L)
-B.Ic=s([B.tZ,null,null,B.ud],t.L)
+B.Id=s([B.tZ,null,null,B.ud],t.L)
 B.IA=s([B.u_,null,null,B.cV],t.L)
 B.Hk=s([B.u0,null,null,B.ue],t.L)
 B.Jg=s([B.u1,null,null,B.kj],t.L)
@@ -90593,7 +90593,7 @@ B.I2=s([B.eO,B.eO,B.hl,null],t.L)
 B.Iq=s([B.eK,null,null,B.eQ],t.L)
 B.IN=s([B.eL,null,null,B.eS],t.L)
 B.I3=s([B.cy,B.cy,B.cU,null],t.L)
-B.L8=new A.cK(["*",B.HT,"+",B.J2,"-",B.Ic,".",B.IA,"/",B.Hk,"0",B.Jg,"1",B.Jd,"2",B.I_,"3",B.Jj,"4",B.Jc,"5",B.HX,"6",B.Ho,"7",B.I7,"8",B.J3,"9",B.J5,"Alt",B.I0,"AltGraph",B.Jh,"ArrowDown",B.Il,"ArrowLeft",B.Im,"ArrowRight",B.In,"ArrowUp",B.Ji,"Clear",B.J9,"Control",B.I1,"Delete",B.IH,"End",B.Io,"Enter",B.HW,"Home",B.Ip,"Insert",B.Ja,"Meta",B.I2,"PageDown",B.Iq,"PageUp",B.IN,"Shift",B.I3],A.ae("cK<l,T<e?>>"))
+B.L8=new A.cK(["*",B.HT,"+",B.J2,"-",B.Id,".",B.IA,"/",B.Hk,"0",B.Jg,"1",B.Jd,"2",B.I_,"3",B.Jj,"4",B.Jc,"5",B.HX,"6",B.Ho,"7",B.I7,"8",B.J3,"9",B.J5,"Alt",B.I0,"AltGraph",B.Jh,"ArrowDown",B.Il,"ArrowLeft",B.Im,"ArrowRight",B.In,"ArrowUp",B.Ji,"Clear",B.J9,"Control",B.I1,"Delete",B.IH,"End",B.Io,"Enter",B.HW,"Home",B.Ip,"Insert",B.Ja,"Meta",B.I2,"PageDown",B.Iq,"PageUp",B.IN,"Shift",B.I3],A.ae("cK<l,T<e?>>"))
 B.FF=new A.kB(0,"arrayUnion")
 B.FG=new A.kB(1,"arrayRemove")
 B.FH=new A.kB(2,"delete")
@@ -91317,7 +91317,7 @@ B.Qn=new A.jQ(3,"hide")
 B.a_5=new A.jQ(4,"remove")
 B.zl=new A.jQ(5,"timeout")
 B.Qo=new A.uM(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.W_=new A.ba("\xa1Mensaje enviado con \xe9xito! Te responderemos pronto.",null,null,null,null,null,null,null,null)
+B.W0=new A.ba("\xa1Mensaje enviado con \xe9xito! Te responderemos pronto.",null,null,null,null,null,null,null,null)
 B.DQ=new A.A(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,B.e)
 B.D5=new A.A(1,0.7843137254901961,0.9019607843137255,0.788235294117647,B.e)
 B.DH=new A.A(1,0.6470588235294118,0.8392156862745098,0.6549019607843137,B.e)
@@ -91330,7 +91330,7 @@ B.Di=new A.A(1,0.1803921568627451,0.49019607843137253,0.19607843137254902,B.e)
 B.D0=new A.A(1,0.10588235294117647,0.3686274509803922,0.12549019607843137,B.e)
 B.Lc=new A.cK([50,B.DQ,100,B.D5,200,B.DH,300,B.DW,400,B.Dq,500,B.DS,600,B.DV,700,B.CP,800,B.Di,900,B.D0],t.pl)
 B.Lh=new A.pw(B.Lc,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
-B.Qp=new A.qv(B.W_,B.Lh,null,null,null,null,null,null,null,null,null,null,null,B.ne,null,null,null,B.Y,null)
+B.Qp=new A.qv(B.W0,B.Lh,null,null,null,null,null,null,null,null,null,null,null,B.ne,null,null,null,B.Y,null)
 B.zm=new A.C8(0,"permissive")
 B.Qq=new A.C8(1,"normal")
 B.Qr=new A.C8(2,"forced")
@@ -91709,29 +91709,29 @@ B.VN=new A.ba("SERVICIOS DE PROCUREMENT",null,B.i2,null,null,null,null,null,null
 B.lh=new A.j(!0,B.M,null,null,null,null,15,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.VO=new A.ba("Ofrecer soluciones integrales en comercio exterior y log\xedstica internacional, garantizando eficiencia operativa, cumplimiento normativo y acompa\xf1amiento profesional en cada operaci\xf3n.",null,B.lh,B.a9,null,null,null,null,null)
 B.VP=new A.ba("M\xe1s informaci\xf3n",null,null,null,null,null,null,null,null)
-B.VQ=new A.ba("Page Not Found",null,null,null,null,null,null,null,null)
-B.VR=new A.ba("Beneficios",null,B.i1,null,null,null,null,null,null)
+B.VR=new A.ba("Page Not Found",null,null,null,null,null,null,null,null)
+B.VS=new A.ba("Beneficios",null,B.i1,null,null,null,null,null,null)
 B.li=new A.j(!0,null,null,null,null,null,18,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.VU=new A.ba("Enviar mensaje",null,B.li,null,null,null,null,null,null)
+B.VV=new A.ba("Enviar mensaje",null,B.li,null,null,null,null,null,null)
 B.Sb=new A.j(!0,B.T,null,null,null,null,16,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.zN=new A.ba("\u2022 ",null,B.Sb,null,null,null,null,null,null)
 B.V9=new A.j(!0,null,null,null,null,null,28,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.VX=new A.ba("Presentaci\xf3n Corporativa",null,B.V9,null,null,null,null,null,null)
+B.VY=new A.ba("Presentaci\xf3n Corporativa",null,B.V9,null,null,null,null,null,null)
 B.Tj=new A.j(!0,B.bc,null,null,null,null,28,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.VY=new A.ba("Nuestra Propuesta De Valor",null,B.Tj,null,null,null,null,null,null)
-B.VZ=new A.ba("Somos un operador log\xedstico integral y freight forwarder, especializado en transporte multimodal, gesti\xf3n aduanera y asesor\xeda regulatoria para empresas que participan en el comercio internacional y en la industria pesquera.\n\nDesde Manta \u2013 Ecuador, uno de los principales puertos comerciales del pa\xeds, coordinamos operaciones log\xedsticas y documentales que permiten a nuestros clientes optimizar sus procesos y expandir sus negocios hacia nuevos mercados.",null,B.lh,B.a9,null,null,null,null,null)
+B.VZ=new A.ba("Nuestra Propuesta De Valor",null,B.Tj,null,null,null,null,null,null)
+B.W_=new A.ba("Somos un operador log\xedstico integral y freight forwarder, especializado en transporte multimodal, gesti\xf3n aduanera y asesor\xeda regulatoria para empresas que participan en el comercio internacional y en la industria pesquera.\n\nDesde Manta \u2013 Ecuador, uno de los principales puertos comerciales del pa\xeds, coordinamos operaciones log\xedsticas y documentales que permiten a nuestros clientes optimizar sus procesos y expandir sus negocios hacia nuevos mercados.",null,B.lh,B.a9,null,null,null,null,null)
 B.SF=new A.j(!0,B.A,null,null,null,null,18,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.W2=new A.ba("S\xedguenos en:",null,B.SF,null,null,null,null,null,null)
+B.W3=new A.ba("S\xedguenos en:",null,B.SF,null,null,null,null,null,null)
 B.SA=new A.j(!0,B.j,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.W3=new A.ba("Go to home page",null,B.SA,null,null,null,null,null,null)
-B.W4=new A.ba("SERVICIOS DE GESTI\xd3N ADUANERA",null,B.i1,null,null,null,null,null,null)
+B.W4=new A.ba("Go to home page",null,B.SA,null,null,null,null,null,null)
+B.W5=new A.ba("SERVICIOS DE GESTI\xd3N ADUANERA",null,B.i1,null,null,null,null,null,null)
 B.TI=new A.j(!0,null,null,null,null,null,16,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.W5=new A.ba("OCEANCOMEX es un operador integral en log\xedstica y comercio exterior, especializado en servicios de transporte multimodal (FCL, LCL, a\xe9reo y terrestre) para importaci\xf3n y exportaci\xf3n. Actuamos como freight forwarder, ofreciendo agenciamiento y consolidaci\xf3n de carga, as\xed como todos los servicios asociados a la cadena log\xedstica.\n\nNuestro equipo se distingue por brindar atenci\xf3n personalizada en cada operaci\xf3n, garantizando una ejecuci\xf3n \xe1gil y la trazabilidad completa de la carga. Contamos con el respaldo de una red internacional, lo que nos permite asegurar cumplimiento de plazos y ofrecer tiempos de entrega confiables",null,B.TI,B.dX,null,null,null,null,null)
-B.W6=new A.ba("SERVICIOS ESPECIALIZADOS PARA EL SECTOR PESCA",null,B.i1,null,null,null,null,null,null)
+B.W6=new A.ba("OCEANCOMEX es un operador integral en log\xedstica y comercio exterior, especializado en servicios de transporte multimodal (FCL, LCL, a\xe9reo y terrestre) para importaci\xf3n y exportaci\xf3n. Actuamos como freight forwarder, ofreciendo agenciamiento y consolidaci\xf3n de carga, as\xed como todos los servicios asociados a la cadena log\xedstica.\n\nNuestro equipo se distingue por brindar atenci\xf3n personalizada en cada operaci\xf3n, garantizando una ejecuci\xf3n \xe1gil y la trazabilidad completa de la carga. Contamos con el respaldo de una red internacional, lo que nos permite asegurar cumplimiento de plazos y ofrecer tiempos de entrega confiables",null,B.TI,B.dX,null,null,null,null,null)
+B.W7=new A.ba("SERVICIOS ESPECIALIZADOS PARA EL SECTOR PESCA",null,B.i1,null,null,null,null,null,null)
 B.Vm=new A.j(!0,null,null,null,null,null,16,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.i3=new A.ba("Solicitar informaci\xf3n",null,B.Vm,null,null,null,null,null,null)
 B.lm=new A.j(!0,B.j,null,null,null,null,16,B.ab,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.W8=new A.ba("ENLACES R\xc1PIDOS",null,B.lm,null,null,null,null,null,null)
+B.W9=new A.ba("ENLACES R\xc1PIDOS",null,B.lm,null,null,null,null,null,null)
 B.TO=new A.j(!0,B.n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Wa=new A.ba("\xa1Conversemos!",null,B.TO,null,null,null,null,null,null)
 B.Uf=new A.j(!0,B.j,null,null,null,null,20,B.ab,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
