@@ -45,7 +45,7 @@ import 'package:oceancomex_web/features/contact/functions_pagecontact.dart';
           buildContactItem(
             icon: Icons.location_on,
             title: 'Dirección',
-            content: 'Manta-Guayaquil, Ecuador',
+            content: 'Guayaquil-Manta, Ecuador',
           ),
           
           buildContactItem(
@@ -63,7 +63,7 @@ import 'package:oceancomex_web/features/contact/functions_pagecontact.dart';
           buildContactItem(
             icon: Icons.access_time,
             title: 'Horario de Atención',
-            content: '8:00 AM - 17:30',
+            content: '8:00 AM - 17:30 PM',
           ),
 
           const SizedBox(height: 30),

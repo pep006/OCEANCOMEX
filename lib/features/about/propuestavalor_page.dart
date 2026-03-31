@@ -71,27 +71,27 @@ class PropuestavalorPage extends StatelessWidget {
                     const SizedBox(height: 30),
                     
                     // Lista de características con viñetas
-                    _buildFeatureItem(
+                    buildFeatureItem(
                       'Integración total',
                       'un solo punto de contacto para todas las gestiones operativas, documentales y logísticas.',
                     ),
-                    _buildFeatureItem(
+                    buildFeatureItem(
                       'Experiencia sectorial',
                       'profundo conocimiento del marco regulatorio pesquero ecuatoriano e internacional.',
                     ),
-                    _buildFeatureItem(
+                    buildFeatureItem(
                       'Transparencia y eficiencia',
                       'trazabilidad total de cada operación.',
                     ),
-                    _buildFeatureItem(
+                    buildFeatureItem(
                       'Red estratégica',
                       'relaciones activas con autoridades, proveedores y flotas internacionales.',
                     ),
-                    _buildFeatureItem(
+                    buildFeatureItem(
                       'Soluciones personalizadas',
                       'adaptadas a cada cliente, tipo de embarcación o flujo comercial.',
                     ),
-                    _buildFeatureItem(
+                    buildFeatureItem(
                       'Relaciones institucionales y regulatorias',
                       'Representación técnica en inspecciones y auditorias oficiales por las autoridades de control, resolución de conflictos administrativos y gestiones de cumplimiento.',
                       isLast: true,
@@ -144,7 +144,7 @@ class PropuestavalorPage extends StatelessWidget {
     );
   }
 
-  Widget _buildFeatureItem(String title, String description, {bool isLast = false}) {
+  Widget buildFeatureItem(String title, String description, {bool isLast = false}) {
     return Padding(
       padding: EdgeInsets.only(bottom: isLast ? 0 : 20),
       child: Row(

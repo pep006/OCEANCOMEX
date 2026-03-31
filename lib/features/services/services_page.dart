@@ -56,10 +56,8 @@ class ServicesPage extends StatelessWidget {
                   ServiceCard(
                     title: 'Sector Procurement',
                     description:
-                        '• Búsqueda de proveedores\n'
-                        '• Solicitud de cotizaciones\n'
-                        '• Verificación de proveedores\n'
-                        '• Asistencia en compras',
+                        '• Proceso estratégico enfocado en la planificación, adquisición y gestión eficiente de bienes y servicios.',
+                     
                     icon: Icons.handshake,
                     isMobile: isMobile,
                     route: '/sectorprocurement',
@@ -67,10 +65,7 @@ class ServicesPage extends StatelessWidget {
                   ServiceCard(
                     title: 'Sector Comercio Exterior',
                     description:
-                        '• Gestión completa de procesos aduaneros\n'
-                        '• Coordinación logística marítima, aérea y terrestre\n'
-                        '• Emisión, validación y legalización de documentos internacionales\n'
-                        '• (BL, COO, factura comercial, packing list, etc.)',
+                        '• Conjunto de operaciones que permiten el intercambio de bienes y servicios entre países.\n',
                     icon: Icons.directions_boat,
                     isMobile: isMobile,
                     route: '/sectorcomext',
@@ -78,14 +73,14 @@ class ServicesPage extends StatelessWidget {
                   ServiceCard(
                     title: 'Sector Pesca',
                     description:
-                        'Trámites de asociación y manejo documental pesquero para plantas o comercializadoras',
+                        'Actividad económica orientada a la captura, procesamiento y comercialización de recursos marinos.',
                     icon: Icons.set_meal,
                     isMobile: isMobile,
                     route: '/sectorpesca',
                   ),
                   ServiceCard(
                     title: 'Gestión Aduanera',
-                    description: 'Tramitación y asesoría en comercio exterior.',
+                    description: 'Proceso encargado de regular y controlar el ingreso y salida de mercancías conforme a la normativa vigente.',
                     icon: Icons.description,
                     isMobile: isMobile,
                     route: '/aduanera',

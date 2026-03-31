@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:oceancomex_web/features/services/Services_pesca.dart';
+import 'package:oceancomex_web/features/services/services_aduanera.dart';
+import 'package:oceancomex_web/features/services/services_comext.dart';
+import 'package:oceancomex_web/features/services/services_procurement.dart';
 
 class ServiciosSection extends StatelessWidget {
   const ServiciosSection({super.key});
@@ -32,32 +36,65 @@ class ServiciosSection extends StatelessWidget {
               ? Column(
                   children: [
                     _buildServiceCard(
-                      title: "SECTOR PROCUREMENT",
+                      title: "Sector Procurement",
                       description:
                           "• Búsqueda de proveedores, Solicitud de cotizaciones, Verificación de proveedores, Asistencia en compras",
                       icon: Icons.handshake,
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const ServicesProcurement(),
+                          ),
+                        );
+                      },
                     ),
                     const SizedBox(height: 20),
                     _buildServiceCard(
-                      title: "SECTOR COMERCIO EXTERIOR",
+                      title: "Sector Comercio Exterior",
                       description:
                           "• Gestión completa de procesos aduaneros, Coordinación logística marítima, aérea y terrestre, Emisión de documentos internacionales.",
                       icon: Icons.directions_boat_filled,
+                       onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const ServicesComext(),
+                          ),
+                        );
+                      },
                       isCompact: true,
+
                     ),
                     const SizedBox(height: 20),
                     _buildServiceCard(
-                      title: "SECTOR PESCA",
+                      title: "Sector Pesca",
                       description:
                           "Trámites de asociación y manejo documental pesquero.",
                       icon: Icons.set_meal,
+                       onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const ServicesPesca(),
+                          ),
+                        );
+                      },
                     ),
                     const SizedBox(height: 20),
                     _buildServiceCard(
-                      title: "GESTIÓN ADUANERA",
+                      title: "Gestión Aduanera",
                       description:
                           "• Asesoría en gestión aduanera y regímenes especiales.",
                       icon: Icons.handshake,
+                       onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const ServicesAduanera(),
+                          ),
+                        );
+                      },
                     ),
                   ],
                 )
@@ -69,14 +106,14 @@ class ServiciosSection extends StatelessWidget {
                       child: Column(
                         children: [
                           _buildServiceCard(
-                            title: "SECTOR PROCUREMENT",
+                            title: "Sector Procurement",
                             description:
                                 "• Búsqueda de proveedores, Solicitud de cotizaciones, Verificación de proveedores, Asistencia en compras",
                             icon: Icons.handshake,
                           ),
                           const SizedBox(height: 20),
                           _buildServiceCard(
-                            title: "SECTOR COMERCIO EXTERIOR",
+                            title: "Sector Comercio Exterior",
                             description:
                                 "• Gestión completa de procesos aduaneros, Coordinación logística marítima, aérea y terrestre, Emisión de documentos internacionales.",
                             icon: Icons.directions_boat_filled,
@@ -93,14 +130,14 @@ class ServiciosSection extends StatelessWidget {
                       child: Column(
                         children: [
                           _buildServiceCard(
-                            title: "SECTOR PESCA",
+                            title: "Sector Pesca",
                             description:
                                 "Trámites de asociación y manejo documental pesquero.",
                             icon: Icons.set_meal,
                           ),
                           const SizedBox(height: 20),
                           _buildServiceCard(
-                            title: "GESTIÓN ADUANERA",
+                            title: "Gestión Aduanera",
                             description:
                                 "• Asesoría en gestión aduanera y regímenes especiales.",
                             icon: Icons.handshake,
@@ -120,6 +157,7 @@ class ServiciosSection extends StatelessWidget {
     required String description,
     required IconData icon,
     bool isCompact = false,
+    VoidCallback? onTap,
   }) {
     return Container(
       width: double.infinity,
@@ -134,9 +172,7 @@ class ServiciosSection extends StatelessWidget {
             offset: const Offset(0, 5),
           ),
         ],
-        border: Border.all(
-          color: const Color(0xFF083A52).withOpacity(0.1),
-        ),
+        border: Border.all(color: const Color(0xFF083A52).withOpacity(0.1)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -181,25 +217,24 @@ class ServiciosSection extends StatelessWidget {
           const SizedBox(height: 12),
 
           /// Botón
-          Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: const [
-              Text(
-                "Ver más",
-                style: TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w500,
-                  color: Color(0xFF083A52),
+         /* InkWell(
+            onTap: onTap, // 👈 acción
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: const [
+                Text(
+                  "Ver más",
+                  style: TextStyle(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w500,
+                    color: Color(0xFF083A52),
+                  ),
                 ),
-              ),
-              SizedBox(width: 4),
-              Icon(
-                Icons.arrow_forward,
-                size: 16,
-                color: Color(0xFF083A52),
-              ),
-            ],
-          ),
+                SizedBox(width: 4),
+                Icon(Icons.arrow_forward, size: 16, color: Color(0xFF083A52)),
+              ],
+            ),
+          ),*/
         ],
       ),
     );

@@ -36,7 +36,7 @@ class PresentationSection extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    "PRESENTACIÓN CORPORATIVA",
+                    "Presentación Corporativa",
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,

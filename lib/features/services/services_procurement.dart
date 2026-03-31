@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oceancomex_web/features/contact/contact_page.dart';
 import 'package:oceancomex_web/shared/widgets/footer_section.dart';
 import 'package:oceancomex_web/shared/widgets/main_header.dart';
 
@@ -164,12 +165,17 @@ class ServicesProcurement extends StatelessWidget {
                           ),
                         ),
                         onPressed: () {
-                          // Acción del botón
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const ContactPage(),
+                            ),
+                          );
                         },
                         child: const Text(
                           'Solicitar información',
                           style: TextStyle(
-                            fontSize: 18,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),
                         ),

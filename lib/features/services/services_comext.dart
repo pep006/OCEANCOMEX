@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:oceancomex_web/features/contact/contact_page.dart';
 import 'package:oceancomex_web/shared/widgets/footer_section.dart';
+import 'package:oceancomex_web/shared/widgets/main_header.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 class ServicesComext extends StatelessWidget {
@@ -13,6 +15,8 @@ class ServicesComext extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            
+            MainHeader(),
             /// 🔵 HERO SECTION
             Container(
               width: double.infinity,
@@ -21,7 +25,7 @@ class ServicesComext extends StatelessWidget {
               child: Column(
                 children: const [
                   Text(
-                    'Importaciones y Exportaciones',
+                    'Importaciones Y Exportaciones',
                     style: TextStyle(
                       fontSize: 42,
                       fontWeight: FontWeight.bold,
@@ -67,7 +71,7 @@ class ServicesComext extends StatelessWidget {
                   children: [
                     /// Título
                     const Text(
-                      'SERVICIOS DE COMEX',
+                      'SERVICIOS DE COMERCIO EXTERIOR',
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
@@ -120,13 +124,18 @@ class ServicesComext extends StatelessWidget {
                             borderRadius: BorderRadius.circular(30),
                           ),
                         ),
-                        onPressed: () {
-                          // Acción del botón
+                       onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const ContactPage(),
+                            ),
+                          );
                         },
                         child: const Text(
                           'Solicitar información',
                           style: TextStyle(
-                            fontSize: 18,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -147,10 +156,7 @@ class ServicesComext extends StatelessWidget {
 
   List<Widget> _buildServiceItems() {
     return [
-      _buildServiceItem(
-        'Gestión completa de procesos aduaneros',
-        Icons.description,
-      ),
+    
       _buildServiceItem(
         'Coordinación logística marítima, aérea y terrestre',
         Icons.directions_boat,
@@ -160,11 +166,7 @@ class ServicesComext extends StatelessWidget {
         Icons.assignment,
         subtitle: 'BL, COO, factura comercial, packing list, etc.',
       ),
-      _buildServiceItem(
-        'Asesoría en gestión aduanera y regímenes especiales',
-        Icons.trending_up,
-        subtitle: 'ZEDES, Admisión Temporal, Depósitos Aduaneros',
-      ),
+      
       _buildServiceItem(
         'Control y seguimiento de embarques hasta destino final',
         Icons.track_changes,
@@ -174,10 +176,7 @@ class ServicesComext extends StatelessWidget {
         Icons.local_shipping,
         subtitle: 'FCL, LCL',
       ),
-      _buildServiceItem(
-        'Agenciamiento aduanero',
-        Icons.business,
-      ),
+     
       _buildServiceItem(
         'Emisión de anexos compensatorios',
         Icons.request_page,

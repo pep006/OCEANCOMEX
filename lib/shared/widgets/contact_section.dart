@@ -13,14 +13,14 @@ class ContactSection extends StatelessWidget {
       children: [
       
         ContactItem(
-          icon: Image.asset('assets/images/correo.png'),
+          icon: Image.asset('assets/images/correo_icon.png'),
           title: 'Email',
           subtitle: 'comercial@oceancomex.com.ec',
         ),
         ContactItem(
-          icon: Image.asset('assets/images/ubi.png'),
+          icon: Image.asset('assets/images/ubicacion_icon.png'),
           title: 'Dirección',
-          subtitle: 'Manta-Ecuador',
+          subtitle: 'Guayaquil-Manta, Ecuador',
         ),
         ElevatedButton.icon(
           style: ElevatedButton.styleFrom(

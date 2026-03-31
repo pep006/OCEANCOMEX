@@ -114,7 +114,7 @@ class ServicesAduanera extends StatelessWidget {
                       title: 'Despacho Aduanero',
                     ),
                     const SizedBox(height: 16),
-                    _buildBulletItem('Despacho aduanero integral'),
+                    
                     _buildBulletItem('Agenciamiento aduanero'),
 
                     const SizedBox(height: 40),

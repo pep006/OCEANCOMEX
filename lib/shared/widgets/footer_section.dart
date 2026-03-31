@@ -186,6 +186,7 @@ class FooterSection extends StatelessWidget {
         _buildFooterLink(context, "Sector Pesca", '/sectorpesca'),
         _buildFooterLink(context, "Sector Procurement", '/sectorprocurement'),
         _buildFooterLink(context, "Sector Comercio Exterior", '/sectorcomext'),
+        _buildFooterLink(context, "Sector Gestión Aduanera", '/aduanera'),
       ],
     );
   }
@@ -195,7 +196,7 @@ class FooterSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text(
-          "CONTACTO",
+          "Contacto",
           style: TextStyle(
             color: Colors.white,
             fontSize: 16,
@@ -203,10 +204,10 @@ class FooterSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 20),
-        _buildContactItem(Icons.location_on, "Manta, Ecuador"),
+        _buildContactItem(Icons.location_on, "Guayaquil-Manta, Ecuador"),
         _buildContactItem(Icons.phone, "+593 959119599"),
-        _buildContactItem(Icons.email, "comercial@oceancomex.com"),
-        _buildContactItem(Icons.access_time, "Lun - Vie: 8:00 - 17:30"),
+        _buildContactItem(Icons.email, "comercial@oceancomex.com.ec"),
+        _buildContactItem(Icons.access_time, "Horario de Atención: 8:00 AM - 17:30 PM"),
       ],
     );
   }
