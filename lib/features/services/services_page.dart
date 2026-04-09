@@ -125,7 +125,7 @@ class ServiceCard extends StatelessWidget {
         boxShadow: [
           BoxShadow(
             blurRadius: 10,
-            color: Colors.grey.withValues(alpha: 0.5),
+            color: Colors.grey.withOpacity(0.5),
             offset: const Offset(0, 5),
           ),
         ],

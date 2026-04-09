@@ -31,8 +31,8 @@ class QuienessomosPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      Colors.black.withValues(alpha: 0.7),
-                      Colors.black.withValues(alpha: 0.3),
+                      Colors.black.withOpacity(0.7),
+                      Colors.black.withOpacity(0.3),
                     ],
                     begin: Alignment.bottomCenter,
                     end: Alignment.topCenter,
@@ -75,7 +75,7 @@ class QuienessomosPage extends StatelessWidget {
                   boxShadow: [
                     BoxShadow(
                       blurRadius: 20,
-                      color: Colors.grey.withValues(alpha: 0.1),
+                      color: Colors.grey.withOpacity(0.1),
                       offset: const Offset(0, 10),
                     ),
                   ],
