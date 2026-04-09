@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:oceancomex_web/shared/widgets/Container_Menu.dart';
-
+import 'package:oceancomex_web/shared/widgets/container_menu.dart';
 import 'package:oceancomex_web/shared/widgets/contact_section.dart';
-
 import 'package:oceancomex_web/shared/widgets/logo_section.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
@@ -24,7 +22,7 @@ class MainHeader extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     LogoSection(),
-                    SizedBox(height: 20),
+                    const SizedBox(height: 20),
                     ContactSection(),
                   ],
                 )
@@ -33,8 +31,7 @@ class MainHeader extends StatelessWidget {
                   children: const [LogoSection(), ContactSection()],
                 ),
         ),
-
-        ContainerMenu(),
+        const ContainerMenu(),
       ],
     );
   }
