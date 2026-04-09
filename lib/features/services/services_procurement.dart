@@ -199,10 +199,10 @@ class ServicesProcurement extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: const Color(0xFF0A2A43).withOpacity(0.03),
+        color: Color.fromARGB(8, 10, 42, 67),
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: const Color(0xFFFFDE59).withOpacity(0.3),
+           color: Color.fromARGB(77, 255, 222, 89),
           width: 1,
         ),
       ),
@@ -211,7 +211,7 @@ class ServicesProcurement extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: const Color(0xFFFFDE59).withOpacity(0.2),
+              color: Color.fromARGB(51, 255, 222, 89),
               borderRadius: BorderRadius.circular(8),
             ),
             child: Icon(

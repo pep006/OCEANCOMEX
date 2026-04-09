@@ -18,7 +18,7 @@ import 'package:oceancomex_web/features/contact/functions_pagecontact.dart';
         boxShadow: [
           BoxShadow(
             blurRadius: 20,
-            color: Colors.grey.withOpacity(0.1),
+           color: Color.fromARGB(26, 128, 128, 128),
             offset: const Offset(0, 10),
           )
         ],

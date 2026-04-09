@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:oceancomex_web/features/services/Services_pesca.dart';
+
 import 'package:oceancomex_web/features/services/services_aduanera.dart';
 import 'package:oceancomex_web/features/services/services_comext.dart';
+import 'package:oceancomex_web/features/services/services_pesca.dart';
 import 'package:oceancomex_web/features/services/services_procurement.dart';
 
 class ServiciosSection extends StatelessWidget {
@@ -76,7 +77,7 @@ class ServiciosSection extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const ServicesPesca(),
+                            builder: (context) =>  ServicesPesca(),
                           ),
                         );
                       },
@@ -167,12 +168,12 @@ class ServiciosSection extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1), // 🔥 mejor práctica
+            color: Color.fromARGB(26, 0, 0, 0), 
             blurRadius: 15,
             offset: const Offset(0, 5),
           ),
         ],
-        border: Border.all(color: const Color(0xFF083A52).withOpacity(0.1)),
+        border: Border.all(color: Color.fromARGB(26, 8, 58, 82)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -183,7 +184,7 @@ class ServiciosSection extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: const Color(0xFF083A52).withOpacity(0.1),
+                   color: Color.fromARGB(26, 8, 58, 82),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(icon, color: const Color(0xFF083A52), size: 24),

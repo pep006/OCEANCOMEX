@@ -66,9 +66,9 @@ Future<void> _enviarFormulario() async {
       );
 
       if (response.statusCode == 200) {
-        print('✅ Email enviado a Cloudflare');
+        debugPrint('✅ Email enviado a Cloudflare');
       } else {
-        print('⚠️ Error Cloudflare: ${response.body}');
+        debugPrint('⚠️ Error Cloudflare: ${response.body}');
       }
 
       if (mounted) {
@@ -192,7 +192,7 @@ Future<void> _enviarFormulario() async {
           boxShadow: [
             BoxShadow(
               blurRadius: 20,
-              color: Colors.grey.withOpacity(0.1),
+             color: Colors.grey.withAlpha(26),
               offset: const Offset(0, 10),
             )
           ],

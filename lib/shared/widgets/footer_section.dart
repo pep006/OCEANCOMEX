@@ -248,7 +248,7 @@ class FooterSection extends StatelessWidget {
       width: 36,
       height: 36,
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.1),
+          color: Color.fromARGB(26, 255, 255, 255),
         shape: BoxShape.circle,
       ),
       child: Icon(icon, color: Colors.white, size: 18),

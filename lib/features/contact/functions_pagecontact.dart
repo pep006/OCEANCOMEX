@@ -15,7 +15,7 @@ Widget buildContactItem({
         Container(
           padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
-            color: const Color(0xFFFFDE59).withOpacity(0.2),
+            color: Color.fromARGB(51, 255, 222, 89),
             borderRadius: BorderRadius.circular(10),
           ),
           child: Icon(
@@ -75,7 +75,7 @@ Widget buildMapSection() {
       children: [
         // Aquí puedes integrar un mapa real (Google Maps, OpenStreetMap, etc.)
         Container(
-          color: const Color(0xFF0A2A43).withOpacity(0.1),
+         color: Color.fromARGB(26, 10, 42, 67),
           child: const Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

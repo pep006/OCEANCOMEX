@@ -4,6 +4,7 @@ import 'package:oceancomex_web/routes/app_router.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'firebase_options.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
@@ -12,9 +13,9 @@ void main() async {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
-    print('Firebase inicializado correctamente');
+    debugPrint('Firebase inicializado correctamente');
   } catch (e) {
-    print('Error inicializando Firebase: $e');
+    debugPrint('Error inicializando Firebase: $e');
   }
   
   runApp(const MyApp());

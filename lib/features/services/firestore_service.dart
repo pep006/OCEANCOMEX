@@ -1,5 +1,6 @@
 // lib/services/firestore_service.dart
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
 
 
 class FirestoreService {
@@ -28,10 +29,10 @@ class FirestoreService {
           .collection('contactos')
           .add(datosContacto);
 
-      print('Documento guardado con ID: ${docRef.id}');
+      debugPrint('Documento guardado con ID: ${docRef.id}');
       return docRef.id;
     } catch (e) {
-      print('Error detallado: $e');
+      debugPrint('Error detallado: $e');
       throw Exception('Error al guardar contacto: $e');
     }
   }
