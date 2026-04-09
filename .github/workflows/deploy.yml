@@ -27,6 +27,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: OCEANCOMEX  # Cambia por el nombre de tu proyecto
+          projectName: oceancomex  # Cambia por el nombre de tu proyecto
           directory: build/web
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
