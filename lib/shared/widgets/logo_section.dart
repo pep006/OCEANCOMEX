@@ -6,14 +6,18 @@ class LogoSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-
       children: [
-        Image.asset(
-          'assets/images/logo_oceancomex.png',
-          height: 60,
+        GestureDetector(
+          onTap: () {
+            Navigator.pushNamed(context, '/'); 
+           
+          },
+          child: Image.asset(
+            'assets/images/logo_oceancomex.png',
+            height: 60,
+          ),
         ),
       ],
-      
     );
   }
 }
