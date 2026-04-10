@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class LogoSection extends StatelessWidget {
   const LogoSection({super.key});
@@ -9,7 +10,7 @@ class LogoSection extends StatelessWidget {
       children: [
         GestureDetector(
           onTap: () {
-            Navigator.pushNamed(context, '/'); 
+            context.push('/'); 
            
           },
           child: Image.asset(
